@@ -1,0 +1,63 @@
+.roboto-Roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body {
+    background-color: #6ca8e6;
+    margin: 0;
+    padding: 20px;
+    font-family: "Roboto";
+}
+
+#titleText {
+    color: white;
+    text-shadow: 0 2px 2px black;
+    text-align: center;
+}
+
+.collage {
+    justify-content: center;
+    column-count: 2;
+    column-gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.artworkDiv {
+    background-color: white;
+    border: 5px outset;
+    border-bottom-color: #bddbf7;
+    border-right-color: #bddbf7;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    break-inside: avoid;
+}
+
+.artworkDiv img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.description {
+    text-align: center;
+    margin: 0;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+    .collage {
+        column-count: 1;
+    }
+}
